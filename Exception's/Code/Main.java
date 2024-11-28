@@ -7,7 +7,7 @@ class WrongAge extends Exception {
         super("Age Error");
     }
 
-    // Parameterized Constructor
+    
     public WrongAge(String message) {
         super(message);
     }
@@ -50,16 +50,16 @@ class Son extends Father {
         }
     }
 
-    // Display Method
+    
     @Override
     public void display() {
-        super.display(); // Displays Father's Age
+        super.display();
         System.out.println("Son's Age: " + sonAge);
     }
 }
 
-// Main Class
-public class Main { // Rename to match Main.java
+
+public class Main { 
     public static void main(String[] args) {
         try {
             Son son = new Son(); 
