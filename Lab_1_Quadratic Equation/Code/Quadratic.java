@@ -38,25 +38,12 @@ public class Quadratic
             {
             double root1=(-b)/(2*a);
 	    System.out.println("Real and equal");
-		
             System.out.println("Root-1: "+root1);
             System.out.println("Root-2: "+root1);
-
-            
             }
 	System.out.println("Kedar Jevargi");
 	System.out.println("1BM23CS147");
 
-        }
-    
-    
-
-
-
-
-
-
-        
+        }   
     }
-
 }
